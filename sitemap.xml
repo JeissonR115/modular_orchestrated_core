@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/</loc>
+         <loc>https://jeissonr115.github.io/modular_orchestrated_core/</loc>
          <lastmod>2025-07-28</lastmod>
     </url>
     <url>
-         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/1.context/background/</loc>
+         <loc>https://jeissonr115.github.io/modular_orchestrated_core/contexto/background/</loc>
          <lastmod>2025-07-28</lastmod>
     </url>
     <url>
-         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/2.method/tenants/</loc>
+         <loc>https://jeissonr115.github.io/modular_orchestrated_core/implementaci%C3%B3n/buenas-practicas/</loc>
          <lastmod>2025-07-28</lastmod>
     </url>
     <url>
-         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/2.method/components/core/</loc>
+         <loc>https://jeissonr115.github.io/modular_orchestrated_core/implementaci%C3%B3n/casos-de-uso/</loc>
          <lastmod>2025-07-28</lastmod>
     </url>
     <url>
-         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/2.method/components/orchestrators/</loc>
+         <loc>https://jeissonr115.github.io/modular_orchestrated_core/metodo/tenants/</loc>
          <lastmod>2025-07-28</lastmod>
     </url>
     <url>
-         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/2.method/components/plugins/</loc>
+         <loc>https://jeissonr115.github.io/modular_orchestrated_core/metodo/componentes/core/</loc>
          <lastmod>2025-07-28</lastmod>
     </url>
     <url>
-         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/3.implementation/buenas-practicas/</loc>
+         <loc>https://jeissonr115.github.io/modular_orchestrated_core/metodo/componentes/orchestrators/</loc>
          <lastmod>2025-07-28</lastmod>
     </url>
     <url>
-         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/3.implementation/casos-de-uso/</loc>
+         <loc>https://jeissonr115.github.io/modular_orchestrated_core/metodo/componentes/plugins/</loc>
          <lastmod>2025-07-28</lastmod>
     </url>
 </urlset>
