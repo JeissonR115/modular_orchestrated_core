@@ -1,4 +1,4 @@
-# Modular Orchestrated Core
+# MOC
 
 Arquitectura **modular orientada a plugins y orquestadores por cliente (tenant)**, diseñada para escalar aplicaciones multi-cliente sin duplicar código ni sacrificar personalización.
 

@@ -5,17 +5,4 @@ site_url: https://jeissonr115.github.io/modular_orchestrated_core/
 
 theme:
   name: material
-  locale: co
   language: es
-
-plugins:
-  - gen-files
-  - literate-nav
-
-markdown_extensions:
-  - toc:
-      permalink: true
-  - admonition
-  - codehilite
-  - footnotes
-  - tables
