@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/</loc>
+         <lastmod>2025-07-28</lastmod>
+    </url>
+    <url>
+         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/1.context/background/</loc>
+         <lastmod>2025-07-28</lastmod>
+    </url>
+    <url>
+         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/2.method/tenants/</loc>
+         <lastmod>2025-07-28</lastmod>
+    </url>
+    <url>
+         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/2.method/components/core/</loc>
+         <lastmod>2025-07-28</lastmod>
+    </url>
+    <url>
+         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/2.method/components/orchestrators/</loc>
+         <lastmod>2025-07-28</lastmod>
+    </url>
+    <url>
+         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/2.method/components/plugins/</loc>
+         <lastmod>2025-07-28</lastmod>
+    </url>
+    <url>
+         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/3.implementation/buenas-practicas/</loc>
+         <lastmod>2025-07-28</lastmod>
+    </url>
+    <url>
+         <loc>https://jeissonr_115.github.io/modular-orchestrated-core/3.implementation/casos-de-uso/</loc>
+         <lastmod>2025-07-28</lastmod>
+    </url>
+</urlset>
