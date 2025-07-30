@@ -2,38 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jeissonr115.github.io/modular_orchestrated_core/</loc>
-         <lastmod>2025-07-28</lastmod>
+         <lastmod>2025-07-30</lastmod>
     </url>
     <url>
          <loc>https://jeissonr115.github.io/modular_orchestrated_core/contexto/background/</loc>
-         <lastmod>2025-07-28</lastmod>
+         <lastmod>2025-07-30</lastmod>
     </url>
     <url>
          <loc>https://jeissonr115.github.io/modular_orchestrated_core/implementaci%C3%B3n/buenas-practicas/</loc>
-         <lastmod>2025-07-28</lastmod>
+         <lastmod>2025-07-30</lastmod>
     </url>
     <url>
          <loc>https://jeissonr115.github.io/modular_orchestrated_core/implementaci%C3%B3n/casos-de-uso/</loc>
-         <lastmod>2025-07-28</lastmod>
+         <lastmod>2025-07-30</lastmod>
     </url>
     <url>
          <loc>https://jeissonr115.github.io/modular_orchestrated_core/metodo/tenants/</loc>
-         <lastmod>2025-07-28</lastmod>
+         <lastmod>2025-07-30</lastmod>
+    </url>
+    <url>
+         <loc>https://jeissonr115.github.io/modular_orchestrated_core/metodo/componentes/</loc>
+         <lastmod>2025-07-30</lastmod>
     </url>
     <url>
          <loc>https://jeissonr115.github.io/modular_orchestrated_core/metodo/componentes/core/</loc>
-         <lastmod>2025-07-28</lastmod>
+         <lastmod>2025-07-30</lastmod>
     </url>
     <url>
          <loc>https://jeissonr115.github.io/modular_orchestrated_core/metodo/componentes/orchestrators/</loc>
-         <lastmod>2025-07-28</lastmod>
+         <lastmod>2025-07-30</lastmod>
     </url>
     <url>
          <loc>https://jeissonr115.github.io/modular_orchestrated_core/metodo/componentes/plugins/</loc>
-         <lastmod>2025-07-28</lastmod>
+         <lastmod>2025-07-30</lastmod>
     </url>
     <url>
          <loc>https://jeissonr115.github.io/modular_orchestrated_core/prueba-notion/Gestion/</loc>
-         <lastmod>2025-07-28</lastmod>
+         <lastmod>2025-07-30</lastmod>
     </url>
 </urlset>
