@@ -1,8 +1,0 @@
-site_name: Modular Orchestrated Core
-site_description: Arquitectura modular orientada a plugins y orquestadores por cliente
-site_author: Jeisson Rodríguez
-site_url: https://jeissonr115.github.io/modular_orchestrated_core/
-
-theme:
-  name: material
-  language: es

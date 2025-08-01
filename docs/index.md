@@ -1,6 +1,9 @@
+---
+sidebar_position: 1
+---
 # MOC
 
-Arquitectura **modular orientada a plugins y orquestadores por cliente (tenant)**, diseñada para escalar aplicaciones multi-cliente sin duplicar código ni sacrificar personalización.
+Arquitectura **Modular Orchestrated Core**, diseñada para escalar aplicaciones multi-cliente sin duplicar código ni sacrificar personalización.
 
 ---
 
@@ -9,6 +12,7 @@ Arquitectura **modular orientada a plugins y orquestadores por cliente (tenant)*
 Actualmente se mantienen **30 aplicaciones distintas** (6 apps × 5 clientes), cada una con sus propias variaciones, niveles de actualización y mantenimiento.
 
 Con la incorporación de un nuevo cliente (que requerirá todas las apps) y el desarrollo de una nueva aplicación, el sistema escalará a **42 instancias diferentes**.
+
 
 ### Problemas detectados
 
@@ -24,7 +28,7 @@ Con la incorporación de un nuevo cliente (que requerirá todas las apps) y el d
 **Centralizar el desarrollo** sobre una única base de código reutilizable, mediante una arquitectura compuesta por:
 
 - Un **núcleo funcional común** (`core`)
-- **Plugins generales reutilizables** (lógica compartida)
+- **Modules generales reutilizables** (lógica compartida)
 - **Orchestrators por cliente** (personalización aislada por tenant)
 
 > Esto permite mantener la lógica compartida y personalizar comportamientos sin ramificar el sistema.
@@ -36,7 +40,7 @@ Con la incorporación de un nuevo cliente (que requerirá todas las apps) y el d
 ```plaintext
 📁 src
 ├── 📁 core
-├── 📁 plugins
+├── 📁 modules
 │   └── 📁 shared
 ├── 📁 tenants
 │   ├── 📁 ClienteA
@@ -45,8 +49,8 @@ Con la incorporación de un nuevo cliente (que requerirá todas las apps) y el d
 │       └── 📄 Orchestrator.cs
 ```
 
-* **Plugins compartidos**: funcionalidades generales como pagos, notificaciones, etc.
-* **Orchestrators por cliente**: definen qué plugins usar y cómo configurarlos según el tenant.
+* **Modules compartidos**: funcionalidades generales como pagos, notificaciones, etc.
+* **Orchestrators por cliente**: definen qué modules usar y cómo configurarlos según el tenant.
 * **Loader**: selecciona el orchestrator correcto al iniciar, usando `TENANT_ID`.
 
 ---
@@ -55,17 +59,19 @@ Con la incorporación de un nuevo cliente (que requerirá todas las apps) y el d
 
 1. Se define la variable de entorno `TENANT_ID` al desplegar.
 2. Al arrancar, el sistema carga el orchestrator correspondiente.
-3. El orchestrator configura plugins y comportamientos del microservicio.
+3. El orchestrator configura modules y comportamientos del microservicio.
 4. El core ejecuta usando esa configuración, de forma transparente.
 
 > Esto elimina condicionales en tiempo de ejecución y permite una personalización sólida sin duplicación.
 
----
+### Imagen de ejemplo
+![Arquitectura MOC](/img/MOC_diagram.jpeg)
+
 
 ## Ventajas
 
 * **Código centralizado** y mantenible
-* **Plugins reusables**, desacoplados y testeables
+* **Modules reusables**, desacoplados y testeables
 * **Personalización controlada** por tenant
 * **Escalado fácil** a nuevos clientes
 * **Despliegues consistentes y predecibles**
@@ -75,7 +81,7 @@ Con la incorporación de un nuevo cliente (que requerirá todas las apps) y el d
 ## Consideraciones
 
 * Requiere un diseño modular disciplinado
-* Los contratos entre core y plugins deben estar bien definidos
+* Los contratos entre core y modules deben estar bien definidos
 * Es fundamental tener una estrategia clara de:
 
   * Versionado por plugin
