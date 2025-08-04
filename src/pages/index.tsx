@@ -18,17 +18,11 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/home/intro"
-          >
-            Docusaurus Tutorial - 5min ⏱️
+          <Link className="button button--secondary button--lg" to="/docs/  ">
+            Aprende qué es MOC y cómo usarlo{" "}
+            <span className="emoji" role="img" aria-label="rocket">
+              🚀
+            </span>
           </Link>
         </div>
       </div>
