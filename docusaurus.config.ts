@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://github.com/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/modular_orchestrated_core/",
+  baseUrl: "/jeissonR115/modular_orchestrated_core/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "JeissonR115", // Usually your GitHub org/user name.
-  projectName: "MOC", // Usually your repo name.
+  projectName: "modular_orchestrated_core", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",

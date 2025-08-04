@@ -1,41 +1,15 @@
-# Website
+# MOC – Modular Orchestrated Core
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Bienvenido al repositorio de MOC (Modular Orchestrated Core).
 
-## Installation
+Este proyecto propone una forma estructurada de organizar aplicaciones por módulos reutilizables, con una separación clara entre el núcleo funcional y los componentes periféricos que pueden variar según las necesidades de cada cliente o entorno.
 
-```bash
-yarn
-```
+MOC no es un framework ni una librería, sino una propuesta de arquitectura que facilita la escalabilidad, la mantenibilidad y la personalización sin caer en la duplicación innecesaria de código.
 
-## Local Development
+Este repositorio contiene los elementos base del proyecto, pero la explicación detallada del enfoque, los conceptos clave y los principios que lo sustentan se encuentra en el siguiente enlace:
 
-```bash
-yarn start
-```
+📚 [Documentación del proyecto](https://jeissonr115.github.io/modular_orchestrated_core/)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Recomendamos revisar la documentación antes de profundizar en el código o en cualquier intento de implementación.
 
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Gracias por tu interés en MOC.
