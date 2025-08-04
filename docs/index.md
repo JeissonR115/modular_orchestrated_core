@@ -1,6 +1,3 @@
----
-sidebar_position: 1
----
 # MOC
 
 Arquitectura **Modular Orchestrated Core**, diseñada para escalar aplicaciones multi-cliente sin duplicar código ni sacrificar personalización.
@@ -100,6 +97,6 @@ Con la incorporación de un nuevo cliente (que requerirá todas las apps) y el d
 
 ## Más información
 
-* [Documentación técnica detallada](#)
+* [Documentación técnica detallada](./architecture/)
 * [Guía para crear un plugin compartido](#)
 * [Cómo definir un orchestrator por cliente](#)
