@@ -57,15 +57,12 @@ Con la incorporación de un nuevo cliente (que requerirá todas las apps) y el d
 1. Se define la variable de entorno `TENANT_ID` al desplegar.
 2. Al arrancar, el sistema carga el orchestrator correspondiente.
 3. El orchestrator configura modules y comportamientos del microservicio.
-4. El core ejecuta usando esa configuración, de forma transparente dddddddddd.
-5. dfdfdf
+4. El core ejecuta usando esa configuración, de forma transparente.
 
 > Esto elimina condicionales en tiempo de ejecución y permite una personalización sólida sin duplicación.
 
 ### Imagen de ejemplo
 ![Arquitectura MOC](/img/MOC_diagram.jpeg)
-![Arquitectura MOC](/img/MOC_diagram.jpeg)
-
 
 
 ## Ventajas
